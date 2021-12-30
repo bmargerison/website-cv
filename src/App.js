@@ -1,8 +1,12 @@
+import React from "react";
+import Navbar from "./components/Navbar.js"
+import About from "./components/About.js"
+
 function App() {
   return (
-    <div className="App">
-      <h1>My CV</h1>
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <About />
+    </main>
   );
 }
 
