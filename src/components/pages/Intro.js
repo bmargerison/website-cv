@@ -4,7 +4,7 @@ import About from '../About.js';
 
 
 
-function Home() {
+function Intro() {
   return (
     <>
       <About />
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Intro;
