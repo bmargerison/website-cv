@@ -11,7 +11,7 @@ export default function Navbar() {
           <a href="/projects" className="mr-5 hover:text-white">
             Projects
           </a>
-          <a href="#Contact" className="hover:text-white">
+          <a href="/contact" className="hover:text-white">
             Contact
           </a>
         </nav>
