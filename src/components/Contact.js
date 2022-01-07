@@ -66,8 +66,11 @@ export default function Contact() {
             Get in touch
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Please don't be fooled: this form is almost entirely pointless as 
+            you have probably already gotten in touch with me. It does work - 
+            using emailjs to send an email to me - but its only here because it
+            looks kinda cool. Please feel free to make a mockery of this by
+            sending a silly message.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
