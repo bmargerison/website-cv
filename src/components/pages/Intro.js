@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.js';
-import About from '../About.js';
+import Myintro from '../Myintro.js';
 
 function Intro() {
   return (
     <>
-      <About />
+      <Myintro />
     </>
   );
 }
