@@ -8,4 +8,4 @@ I thought about how I wanted the site to look roughly in terms of design and dre
 
 The site uses React and Tailwind. There is no intention for this to be a learning experience for React, which is why I am comfortable using someone else's code as a framework (although it did require some significant changes and adjustments).
 
-![diagram](/src/images/diagram.png?raw=true)
+![](src/images/diagram.png?raw=true)
