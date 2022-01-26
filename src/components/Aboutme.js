@@ -136,13 +136,13 @@ export default function Aboutme() {
             </h1>
             <p className="mb-4 leading-relaxed">
               I recently built a PC for the purposes of a coding course and for my 
-              personal and potentially professional coding projects. It has the 
-              accidental (honestly!) bonus of being able to play some games. I 
-              enjoy the odd single player title and also online multiplayer, 
-              with a particular penchant for Rocket League. Playing this game 
-              demonstrates the remarkable ability to face adversity in the form 
-              of being destroyed by kids who have only been playing the game for 
-              a couple of weeks.
+              personal and potentially professional coding projects. You can 
+              imagine my surprise when it also turned out it could play some 
+              games too! I enjoy the odd single player title and also online 
+              multiplayer, with a particular penchant for Rocket League. Playing 
+              this game demonstrates the remarkable ability to face adversity in 
+              the form of being destroyed by kids who have only been playing the 
+              game for a couple of weeks.
             </p>
           </div>
         </div>
