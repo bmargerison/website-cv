@@ -135,9 +135,9 @@ export default function Aboutme() {
               Gaming
             </h1>
             <p className="mb-4 leading-relaxed">
-              I recently built a PC for the purposes of my course and for my 
+              I recently built a PC for the purposes of a coding course and for my 
               personal and potentially professional coding projects. It has the 
-              (not so) accidental bonus of being able to play some games. I 
+              accidental (honestly!) bonus of being able to play some games. I 
               enjoy the odd single player title and also online multiplayer, 
               with a particular penchant for Rocket League. Playing this game 
               demonstrates the remarkable ability to face adversity in the form 
