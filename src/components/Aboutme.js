@@ -24,7 +24,10 @@ export default function Aboutme() {
               learning, developing and collaborating with others.
             </p>
             <p className="mb-1 leading-relaxed">
-              Favourite food: ribs
+              Favourite food: ribs (I'm working on it)
+            </p>
+            <p className="mb-1 leading-relaxed">
+              Favourite butter: peanut
             </p>
             <p className="mb-1 leading-relaxed">
               Favourite non-alcoholic beverage: tea
@@ -138,10 +141,6 @@ export default function Aboutme() {
               className="object-cover object-center rounded"
               alt="picture"
               src={require('./images/music.jpg')}
-              style={{
-                height: "50%",
-                width: "50%"
-              }}
             />
           </div>
         </div>
@@ -227,7 +226,7 @@ export default function Aboutme() {
               <img
                 className="object-cover object-center rounded"
                 alt="picture"
-                src={require('./images/ribs.jpg')}
+                src={require('./images/climbing.jpg')}
               />
           </div>
         </div>
