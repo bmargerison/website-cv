@@ -10,14 +10,16 @@ export default function Myintro() {
             <br className="hidden lg:inline-block" /> a junior developer
           </h1>
           <p className="mb-4 leading-relaxed">
-            I have recently made a career switch from accounting to software 
-            engineering. I was driven to do this as I am looking to combine my 
-            interests and values with my day-to-day work: collaboration, solving 
-            problems, and continually learning and improving. 
+            Several months ago I made a career switch from accounting to software 
+            engineering, seemingly coming to the conclusion that perpetually 
+            chasing the rush of solving the odd problem is right up my street.
+            Its either this or become a professional athlete or rockstar; I 
+            think I've chosen wisely.
           </p>
           <p className="mb-8 leading-relaxed">
-            I have made this website in order to share a little bit about me as 
-            a person, and summarise some of the things I've been working on.
+            I have made this site to just explain a little about me and my 
+            interests, and to show some of the tech and projects I have worked 
+            on so far.
           </p>
           <div className="flex justify-center">
             <a
