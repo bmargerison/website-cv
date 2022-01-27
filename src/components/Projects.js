@@ -103,7 +103,7 @@ export default function Projects() {
               <img
                 alt="gallery"
                 className="w-1/2 mb-10 mr-2"
-                src={require('./images/acebook.gif')}
+                src={require('./images/banktechtest.jpg')}
               />
               <div className="px-8 py-10 relative w-1/2 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
                 <h1 className="title-font text-lg font-medium text-white mb-5">
