@@ -1,5 +1,6 @@
 import React from "react";
 import * as emailjs from "emailjs-com";
+import { MailIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
 
@@ -62,9 +63,12 @@ export default function Contact() {
           onSubmit={sendEmail}
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Get in touch
-          </h2>
+          <div className="text-center">
+            <MailIcon className="w-10 inline-block mb-1" />
+            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+              Contact
+            </h1>
+          </div>
           <p className="leading-relaxed mb-5">
             Please don't be fooled: this form is almost entirely pointless as 
             you have probably already gotten in touch with me. It does work - 

@@ -1,8 +1,15 @@
 import React from "react";
+import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
 
 export default function Aboutme() {
   return (
     <section id="aboutme">
+      <div className="text-center">
+        <QuestionMarkCircleIcon className="w-10 inline-block mb-1  py-6" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          About me
+        </h1>
+      </div>
       <section id="outdoors">
         <div className="container mx-auto px-10 py-10 md:flex-row items-center relative flex-grow">
           <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
@@ -35,6 +42,32 @@ export default function Aboutme() {
           </div>
         </div>
       </section>
+      <section id="more-images">
+        <div className="container mx-auto px-10 mb-10">
+          <div className="container grid grid-cols-4 gap-4">
+              <img
+                className=""
+                alt="picture"
+                src={require('./images/tins.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/the shining.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/grass.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/cat on comp.jpg')}
+              />
+          </div>
+        </div>
+      </section>
       <section id="outdoors">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
           <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -54,11 +87,7 @@ export default function Aboutme() {
             <img
               className="object-cover object-center rounded"
               alt="picture"
-              src={require('./images/tins.jpg')}
-              style={{
-                height: "75%",
-                width: "75%"
-              }}
+              src={require('./images/camping.jpg')}
             />
           </div>
         </div>
@@ -70,10 +99,6 @@ export default function Aboutme() {
               className="object-cover object-center rounded"
               alt="picture"
               src={require('./images/running.jpg')}
-              style={{
-                height: "75%",
-                width: "75%"
-              }}
             />
           </div>
           <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-8">
@@ -168,6 +193,42 @@ export default function Aboutme() {
               I enjoy the odd game of 5-a-side and snooker, and watching mainly 
               football, rugby, snooker and F1 (until Abu Dhabi 2021 at least).
             </p>
+          </div>
+        </div>
+      </section>
+      <section id="even-more-images">
+        <div className="container mx-auto px-10 mb-10">
+          <div className="container grid grid-cols-3 gap-4">
+              <img
+                className=""
+                alt="picture"
+                src={require('./images/paddleboard.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/me and cat.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/a pepper christmas.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/bethan and pepper.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/the mist.jpg')}
+              />
+              <img
+                className="object-cover object-center rounded"
+                alt="picture"
+                src={require('./images/ribs.jpg')}
+              />
           </div>
         </div>
       </section>
