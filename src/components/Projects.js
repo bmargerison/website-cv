@@ -24,8 +24,8 @@ export default function Projects() {
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
 
-            <div className="flex relative">
-              <div className="px-8 py-10 relative w-1/2 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
+            <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+              <div className="px-8 py-10 relative w-1/1 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
                 <h1 className="title-font text-lg font-medium text-white mb-5">
                   paw2door
                 </h1>
@@ -40,20 +40,24 @@ export default function Projects() {
                   </IconContext.Provider>
                 </div>
               </div>
-              <img
-                alt="gallery"
-                className="w-1/2 mb-10"
-                src={require('./images/paw2door.gif')}
-              />
+              <div className="flex mb-10">
+                <img
+                  alt="gallery"
+                  src={require('./images/paw2door.gif')}
+                  className="mx-auto"
+                />
+              </div>
             </div>
 
-            <div className="flex relative">
-              <img
-                alt="gallery"
-                className="w-1/2 mb-10 mr-2"
-                src={require('./images/acebook.gif')}
-              />
-              <div className="px-8 py-10 relative w-1/2 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
+            <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+              <div className="flex mb-10">
+                <img
+                  alt="gallery"
+                  className="mx-auto"
+                  src={require('./images/acebook.gif')}
+                />
+              </div>
+              <div className="px-8 py-10 relative w-1/1 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
                 <h1 className="title-font text-lg font-medium text-white mb-5">
                   Acebook
                 </h1>
@@ -74,8 +78,8 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="flex relative">
-              <div className="px-8 py-10 relative w-1/2 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
+            <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+              <div className="px-8 py-10 relative w-1/1 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
                 <h1 className="title-font text-lg font-medium text-white mb-5">
                   CLI bowling
                 </h1>
@@ -92,20 +96,24 @@ export default function Projects() {
                   </IconContext.Provider>
                 </div>
               </div>
-              <img
-                alt="gallery"
-                className="w-1/2 mb-10"
-                src={require('./images/bowling.gif')}
-              />
+              <div className="flex mb-10">
+                <img
+                  alt="gallery"
+                  className="mx-auto"
+                  src={require('./images/bowling.gif')}
+                />
+              </div>
             </div>
 
-            <div className="flex relative">
-              <img
-                alt="gallery"
-                className="w-1/2 mb-10 mr-2"
-                src={require('./images/banktechtest.jpg')}
-              />
-              <div className="px-8 py-10 relative w-1/2 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
+            <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1">
+              <div className="flex mb-10">
+                <img
+                  alt="gallery"
+                  className="mx-auto"
+                  src={require('./images/banktechtest.jpg')}
+                />
+              </div>
+              <div className="px-8 py-10 relative w-1/1 border-4 border-gray-800 bg-gray-900 mr-2 mb-10 grid place-items-center">
                 <h1 className="title-font text-lg font-medium text-white mb-5">
                   Bank Tech Test
                 </h1>

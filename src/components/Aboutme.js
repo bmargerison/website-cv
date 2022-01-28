@@ -11,13 +11,15 @@ export default function Aboutme() {
         </h1>
       </div>
       <section id="outdoors">
-        <div className="container mx-auto px-10 py-10 md:flex-row items-center relative flex-grow">
+        <div className="container mx-auto px-10 py-5 md:flex-row items-center relative flex-grow">
           <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
             <p className="mb-4 leading-relaxed">
               I don't have a middle name, and it's just Ben and not Benjamin. It 
               rolls right off the tongue, I know... I am originally from Hull and 
               trained as an accountant in London. I moved to Cardiff a couple of 
               years ago, where I live with my partner and rescue kitty, Pepper. 
+            </p>
+            <p className="mb-4 leading-relaxed">
               The things that drive me forward and motivate me are curiosity, a 
               desire to learn and to solve problems, although I also find the time 
               to switch off. As well as an introverted nature, I am also excited by 
@@ -72,8 +74,8 @@ export default function Aboutme() {
         </div>
       </section>
       <section id="outdoors">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center relative flex flex-grow">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               The outdoors
             </h1>
@@ -96,7 +98,7 @@ export default function Aboutme() {
         </div>
       </section>
       <section id="running">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
+        <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center relative flex flex-grow">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
@@ -104,7 +106,7 @@ export default function Aboutme() {
               src={require('./images/running.jpg')}
             />
           </div>
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-8">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center ml-8">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               Running
             </h1>
@@ -122,8 +124,8 @@ export default function Aboutme() {
         </div>
       </section>
       <section id="music">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center relative flex flex-grow">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               Music
             </h1>
@@ -146,15 +148,15 @@ export default function Aboutme() {
         </div>
       </section>
       <section id="gaming">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
+        <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center relative flex flex-grow">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center"
+              className="object-cover object-center mb-5"
               alt="picture"
               src={require('./images/rl.jpeg')}
             />
           </div>
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-8">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center ml-8">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               Gaming
             </h1>
@@ -172,9 +174,9 @@ export default function Aboutme() {
         </div>
       </section>
       <section id="sports">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center relative flex flex-grow">
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div className="container mx-auto flex px-10 py-5 md:flex-row flex-col items-center relative flex flex-grow">
+        <div className="grid grid-cols-2">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               Dancing
             </h1>
@@ -183,8 +185,7 @@ export default function Aboutme() {
               classes to learn the Cha-Cha-Cha and the Waltz. 
             </p>
           </div>
-        </div>
-          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-8">
+          <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center ml-8">
             <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
               Sports
             </h1>
@@ -194,9 +195,10 @@ export default function Aboutme() {
             </p>
           </div>
         </div>
+      </div>
       </section>
       <section id="even-more-images">
-        <div className="container mx-auto px-10 mb-10">
+        <div className="container mx-auto px-10 mb-10 my-10">
           <div className="container grid grid-cols-3 gap-4">
               <img
                 className=""
