@@ -15,15 +15,17 @@ export default function Aboutme() {
           <div className="lg:flex-grow md:w-0.75 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-5 md:mb-0 items-center text-center">
             <p className="mb-4 leading-relaxed">
               I don't have a middle name, and it's just Ben and not Benjamin. It 
-              rolls right off the tongue, I know... I am originally from Hull and 
-              trained as an accountant in London. I moved to Cardiff a couple of 
-              years ago, where I live with my partner and rescue kitty, Pepper. 
+              rolls right off the tongue, I know... I am from Hull and originally
+              trained as an accountant in London before later pursuing my actual 
+              passion in coding, made possible by becoming more comfortable with 
+              with uncertainty and the idea of not knowing. I moved to Cardiff a 
+              couple of years ago, where I live with my partner and rescue kitty, Pepper. 
             </p>
             <p className="mb-4 leading-relaxed">
               The things that drive me forward and motivate me are curiosity, a 
-              desire to learn and to solve problems, although I also find the time 
-              to switch off. As well as an introverted nature, I am also excited by 
-              learning, developing and collaborating with others.
+              desire to learn and to solve challenging problems, although I also 
+              find the time to switch off. As well as an introverted nature, I 
+              am also excited by learning, developing and collaborating with others.
             </p>
             <p className="mb-1 leading-relaxed">
               Favourite food: ribs (I'm working on it)
@@ -135,7 +137,7 @@ export default function Aboutme() {
               during this period, but despite what my mum thinks I am not going 
               to be the next Slash, so coding it is... My taste has since become 
               much more varied, but I still enjoy picking up an instrument, 
-              exploring music and finding the soundtrack for the moment.
+              exploring music and finding the right soundtrack.
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -181,7 +183,7 @@ export default function Aboutme() {
               Dancing
             </h1>
             <p className="mb-4 leading-relaxed">
-              My rigid, wooden frame won't stop me from taking weekly dance 
+              Despite a rigid, wooden frame I am taking weekly dance 
               classes to learn the Cha-Cha-Cha and the Waltz. 
             </p>
           </div>

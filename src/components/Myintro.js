@@ -10,11 +10,10 @@ export default function Myintro() {
             <br className="hidden lg:inline-block" /> a junior developer
           </h1>
           <p className="mb-4 leading-relaxed">
-            Several months ago I made a career switch from accounting to software 
-            engineering, seemingly coming to the conclusion that perpetually 
-            chasing the rush of solving the odd problem is right up my street.
-            Its either this or become a professional athlete or rockstar; I 
-            think I've chosen wisely.
+            I have a real passion for working with tech due to the significant 
+            impact it can have on everday life and the joy I find in working on 
+            and solving challenging problems. This passion extends to the tech 
+            industry, its ethos, and the tech community as a whole.
           </p>
           <p className="mb-8 leading-relaxed">
             I have made this site to just explain a little about me and my 
