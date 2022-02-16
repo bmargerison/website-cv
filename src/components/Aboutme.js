@@ -118,7 +118,7 @@ export default function Aboutme() {
               picks up a little more also hope to run a somewhat competitive 
               marathon. I'm in the process of trying to change my strike, and 
               considering the need for a running coach, and joining a running 
-              club. You can see my adventures here: https://www.strava.com/athletes/59805862
+              club. You can see my adventures <a style={{ textDecoration: 'underline' }} href="https://www.strava.com/athletes/59805862">here.</a>
             </p>
           </div>
         </div>
