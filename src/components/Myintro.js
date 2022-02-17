@@ -11,7 +11,7 @@ export default function Myintro() {
           </h1>
           <p className="mb-4 leading-relaxed">
             I have a real passion for working with tech due to the significant 
-            impact it can have on everday life and the joy I find in working on 
+            impact it can have on everyday life and the joy I find in working on 
             and solving challenging problems. This passion extends to the tech 
             industry, its ethos, and the tech community as a whole.
           </p>

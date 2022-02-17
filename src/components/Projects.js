@@ -32,7 +32,7 @@ export default function Projects() {
                 <a href="https://github.com/bmargerison/paw2door">
                   <FaGithub className="mb-5" size={30}/>
                 </a>
-                <p className="leading-relaxed mb-5">Working as a team of 4, the goal of this project was to create an aggregator for pet rescues to make it easier for people to adopt a pet.</p>
+                <p className="leading-relaxed mb-5">As a team of 4 the goal of this project was to create an aggregator for pet rescues to make it easier for people to adopt a pet.</p>
                 <div className="grid grid-cols-2 gap-4">
                   <IconContext.Provider value={{ color: '#4ADE80', size: '50px' }}>
                     <DiDjango size={50}/>
@@ -64,7 +64,7 @@ export default function Projects() {
                 <a href="https://github.com/bmargerison/Acebook">
                   <FaGithub className="mb-5" size={30}/>
                 </a>
-                <p className="leading-relaxed mb-5">Working in a team of 7, during weeks 8 and 9 of the Makers Academy course the task was to recreate many elements of a social media site such as Facebook.</p>
+                <p className="leading-relaxed mb-5">During weeks 8 and 9 of the Makers Academy course, as a team of 7 developers, the task was to recreate many elements of a social media site such as Facebook.</p>
                 <div className="grid grid-cols-4 gap-4">
                   <IconContext.Provider value={{ color: '#4ADE80', size: '50px' }}>
                     <SiRubyonrails size={50}/>
